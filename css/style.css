@@ -16,12 +16,12 @@ header{
     display: none;
 }
 
-.nav-link:hover .ms_dropdown-toggle-layover{
+.ms_black:hover .ms_dropdown-toggle-layover{
     display: inline-block;
     transition: .15s ease-in-out;
 }
 
-.nav-link:hover .ms_dropdown-toggle{
+.ms_black:hover .ms_dropdown-toggle{
     display: none;
     transition: .15s ease-in-out;
 }
