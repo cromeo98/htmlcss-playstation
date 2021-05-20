@@ -1,0 +1,63 @@
+/* header */
+header{
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* debug */
+.debug header{
+    background-color: black;
+}
+
+.debug .top-header{
+    height: 30px;
+    border: 1px solid red;
+}
+
+.debug .bottom-header{
+    height: 60px;
+    border: 1px solid red;
+}
+
+.debug .top-jumbo{
+    height: 500px;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-size: cover;
+    border: 1px solid red;
+}
+
+.debug [class*="col"]{
+    border: 1px solid blue;
+}
+
+._ms-height500px{
+    height: 500px;
+}
+
+._ms-height250px{
+    height: 250px;
+}
+
+._ms-height100px{
+    height: 100px;
+}
+
+.red-bord{
+    border: 1px solid red;
+}
+
+.debug .bottom-jumbo{
+    border: 1px solid red;
+}
+
+.debug .top-new-games{
+    height: 500px;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-size: cover;
+}
+
+.debug .bottom-new-games{
+    background-color: rgb(31, 31, 31);
+}
