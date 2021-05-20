@@ -6,19 +6,38 @@ header{
     top: 0;
     left: 0;
 }
-/* debug */
-.debug header{
-    background-color: black;
+
+.ms_dropdown-toggle{
+    width: 10px;
+}
+
+.ms_dropdown-toggle-layover{
+    width: 10px;
+    display: none;
+}
+
+.nav-link:hover .ms_dropdown-toggle-layover{
+    display: inline-block;
+    transition: .15s ease-in-out;
+}
+
+.nav-link:hover .ms_dropdown-toggle{
+    display: none;
+    transition: .15s ease-in-out;
+}
+
+.ms_black{
+    color: black;
 }
 
 .debug .top-header{
     height: 30px;
-    border: 1px solid red;
+    background-color: black;
 }
-
+/* debug */
 .debug .bottom-header{
-    height: 60px;
-    border: 1px solid red;
+
+    background-color: white;
 }
 
 .debug .top-jumbo{
