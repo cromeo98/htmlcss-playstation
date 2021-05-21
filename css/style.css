@@ -1,10 +1,13 @@
+/* common */
+.ms_black{
+    color: black;
+}
+.ms_white{
+    color: white;
+}
 /* header */
 header{
-    height: 90px;
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
 }
 
 .ms_dropdown-toggle{
@@ -26,23 +29,14 @@ header{
     transition: .15s ease-in-out;
 }
 
-.ms_black{
-    color: black;
-}
-
 .debug .top-header{
     height: 30px;
     background-color: black;
 }
 /* debug */
-.debug .bottom-header{
-
-    background-color: white;
-}
-
 .debug .top-jumbo{
-    height: 500px;
-    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    margin-top: 100px;
+    background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     border: 1px solid red;
 }
