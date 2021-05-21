@@ -21,25 +21,31 @@ header{
 
 .ms_black:hover .ms_dropdown-toggle-layover{
     display: inline-block;
-    transition: .15s ease-in-out;
+    transition: .45s ease-in-out;
 }
 
 .ms_black:hover .ms_dropdown-toggle{
     display: none;
-    transition: .15s ease-in-out;
+    transition: .45s ease-in-out;
 }
 
-.debug .top-header{
+.top-header{
     height: 30px;
     background-color: black;
 }
-/* debug */
-.debug .top-jumbo{
+
+/* jumbotron */
+.top-jumbo{
     margin-top: 100px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    border: 1px solid red;
 }
+
+.ms_jumbo-banner-rounded{
+    border-radius: 15px;
+}
+/* debug */
+
 
 .debug [class*="col"]{
     border: 1px solid blue;
