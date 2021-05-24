@@ -8,6 +8,10 @@
 .ms_azure{
     color: rgb(0, 112, 209);
 }
+
+.ms_rounded-25px{
+    border-radius: 25px;
+}
 /* header */
 header{
     width: 100%;
@@ -53,6 +57,17 @@ a.ms_black:hover .ms_black{
 .ms_jumbo-banner-rounded{
     border-radius: 15px;
 }
+
+/* section new-games */
+.top-new-games{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.bottom-new-games{
+    background-color: rgb(31, 31, 31);
+}
 /* debug */
 
 
@@ -80,13 +95,7 @@ a.ms_black:hover .ms_black{
     border: 1px solid red;
 }
 
-.debug .top-new-games{
-    height: 500px;
-    background-image: url(https://picsum.photos/seed/picsum/200/300);
-    background-size: cover;
-}
-
-.debug .bottom-new-games{
+.bottom-new-games{
     background-color: rgb(31, 31, 31);
 }
 
