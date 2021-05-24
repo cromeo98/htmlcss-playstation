@@ -48,10 +48,10 @@ a.ms_black:hover .ms_black{
 
 /* jumbotron */
 .top-jumbo{
-    margin-top: 100px;
+    margin-top: 106px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
-    background-position: 50%;
+    background-position: top;
 }
 
 .ms_jumbo-banner-rounded{
@@ -62,7 +62,7 @@ a.ms_black:hover .ms_black{
 .top-new-games{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
-    background-position: 50%;
+    background-position: center;
 }
 
 .bottom-new-games{
