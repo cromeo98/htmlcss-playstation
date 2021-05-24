@@ -72,48 +72,25 @@ a.ms_black:hover .ms_black{
 .bottom-new-games{
     background-color: rgb(31, 31, 31);
 }
-/* debug */
 
-
-.debug [class*="col"]{
-    border: 1px solid blue;
-}
-
-._ms-height500px{
-    height: 500px;
-}
-
-._ms-height250px{
-    height: 250px;
-}
-
-._ms-height100px{
-    height: 100px;
-}
-
-.red-bord{
-    border: 1px solid red;
-}
-
-.debug .bottom-jumbo{
-    border: 1px solid red;
-}
-
-.bottom-new-games{
-    background-color: rgb(31, 31, 31);
-}
-
-.debug #playstation-plus{
+/* section Playstation plus */
+#playstation-plus{
     background-color: rgb(190, 188, 187);
 }
 
-.debug #playstation-now{
+/* section playstation now */
+#playstation-now{
     background-color: rgb(22, 28, 59);
 }
 
-.debug footer{
+/* footer */
+footer{
     background-color: rgb(0, 67, 156);
 }
+
+
+
+
 
 
 
