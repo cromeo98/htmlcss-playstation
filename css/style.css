@@ -19,6 +19,11 @@ header{
     display: none;
 }
 
+a.ms_black:hover .ms_black{
+    color: rgb(0, 112, 209);
+    transition: .45s ease-in-out;
+}
+
 .ms_black:hover .ms_dropdown-toggle-layover{
     display: inline-block;
     transition: .45s ease-in-out;
@@ -39,6 +44,7 @@ header{
     margin-top: 100px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position: 50%;
 }
 
 .ms_jumbo-banner-rounded{
