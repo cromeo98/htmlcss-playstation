@@ -5,6 +5,9 @@
 .ms_white{
     color: white;
 }
+.ms_azure{
+    color: rgb(0, 112, 209);
+}
 /* header */
 header{
     width: 100%;
