@@ -38,19 +38,17 @@ header{
     display: none;
 }
 
-a.ms_black:hover .ms_black{
+a.ms_black:focus .ms_black{
     color: rgb(0, 112, 209);
-    transition: .45s ease-in-out;
 }
 
-.ms_black:hover .ms_dropdown-toggle-layover{
+a.ms_black:focus .ms_dropdown-toggle-layover{
     display: inline-block;
-    transition: .45s ease-in-out;
+    transform: rotate(180deg);
 }
 
-.ms_black:hover .ms_dropdown-toggle{
+a.ms_black:focus .ms_dropdown-toggle{
     display: none;
-    transition: .45s ease-in-out;
 }
 
 .top-header{
