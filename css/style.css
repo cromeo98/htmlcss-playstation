@@ -21,8 +21,8 @@
     height: 500px;
 }
 
-.ms_w-95{
-    width: 95%;
+.ms_filter-opacity{
+    filter: opacity(0.5);
 }
 /* header */
 header{
@@ -77,6 +77,13 @@ a.ms_black:hover .ms_black{
     margin-bottom: -8px;
 }
 
+/* play-5 */
+#play-5 .ms_filter-opacity:hover{
+    filter: opacity(1);
+    border-bottom: 3px solid rgb(59, 147, 217);
+    margin-bottom: -2px;
+}
+
 /* section new-games */
 .top-new-games{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -102,6 +109,7 @@ a.ms_black:hover .ms_black{
 footer{
     background-color: rgb(0, 67, 156);
 }
+
 
 
 
