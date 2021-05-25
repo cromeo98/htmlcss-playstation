@@ -20,6 +20,10 @@
 ._ms-height500px{
     height: 500px;
 }
+
+.ms_w-95{
+    width: 95%;
+}
 /* header */
 header{
     width: 100%;
@@ -64,6 +68,13 @@ a.ms_black:hover .ms_black{
 
 .ms_jumbo-banner-rounded{
     border-radius: 15px;
+}
+
+.bottom-jumbo .ms_img-container:hover{
+    border: 3px solid rgb(13, 121, 208);
+    border-radius: 15px;
+    padding: .25rem;
+    margin-bottom: -8px;
 }
 
 /* section new-games */
